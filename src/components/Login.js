@@ -10,13 +10,17 @@ function Login(){
 
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.post("https://crud-deployment-backend-3-hv18.onrender.com/login",{email,password})
+        axios.post("https://backend-deploy-1.onrender.com/login",{email,password})
         .then(result=>
             {console.log(result)
             if(result.data==="success"){
                 alert("login sucessfully")
             navigate('/home')
             }
+            else{
+                alert("The password that you have entered is incorrect!")
+            }
+
         })
     .catch((err)=>console.log(err))
 }
