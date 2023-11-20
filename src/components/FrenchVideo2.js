@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
 import {Link} from "react-router-dom";
-function Frenchvideo1(){
+function Frenchvideo2(){
     return(
         <div>
             <nav className="navbar bg-info">
@@ -16,13 +16,11 @@ function Frenchvideo1(){
             </div>
             {/* <Container> */}
             <div className="ratio ratio-16x9" style={{marginLeft:"150px"}}>
-           <iframe src="https://www.youtube.com/embed/-7woR4auqso?si=82vV0wqVrAvVx_b6" title="YouTube video" allowFullScreen style={{ width: "70%", height: "60%" }}></iframe>
+           <iframe src="https://www.youtube.com/embed/hd0_GZHHWeE?si=dHXJJ2MkF8QQBNfx" title="YouTube video" allowFullScreen style={{ width: "70%", height: "60%" }}></iframe>
             </div>
             
             {/* </Container> */}
         </div>
     )
 }
-export default Frenchvideo1;
-
-//<iframe width="560" height="315" src="https://www.youtube.com/embed/w46i7nY9Zt4?si=yzsQtvdSk34ZuQRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+export default Frenchvideo2;

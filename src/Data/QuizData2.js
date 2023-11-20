@@ -1,22 +1,27 @@
 export const QuizData2 = [
     {
-        question: "Hii",
-        options:[ "Java", "C", "Python", "JavaScript"],
+        question: "How do you say 'water'?",
+        options:[ "un bol", "une assiette", "du lait", "de l'eau"],
         answer: 4
     },
     {
-        question: "What does CSS stand for?",
-        options:["Central Style Sheets", "Cascading Style Sheets", "Cascading Simple Sheets", "Cars SUVs Sailboats"],
-        answer: 2
+        question: " What is the correct translation for 'hospital'?",
+        options:["une aspirine", "de l'eau", "un hôpital", "une maison"],
+        answer: 3
     },
     {
-        question: "What does HTML stand for?",
-        options: ["Hypertext Markup Language", "Hypertext Markdown Language", "Hyperloop Machine Language", "Helicopters Terminals Motorboats Lamborginis"],
-        answer: 1
+        question: "How do you say 'taxi'?",
+        options: ["un hôpital", "une voiture", "un lit", "un taxi"],
+        answer: 4
     },
     {
-        question: "What year was JavaScript launched?",
-        options: ["1996", "1995", "1994", "none of the above"],
-        answer:2
+        question: "How do you say 'car'? ",
+        options: ["un train", "un paquebot", "une voiture", "un couteau"],
+        answer:3
+    },
+    {
+        question: "What is the correct translation for 'mango'?",
+        options: ["des framboises", "une banane", "des fraises", "une mangue"],
+        answer:4
     },
 ];

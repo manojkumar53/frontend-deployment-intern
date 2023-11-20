@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
 import {Link} from "react-router-dom";
-function Frenchvideo1(){
+function Frenchvideo4(){
     return(
         <div>
             <nav className="navbar bg-info">
@@ -15,14 +15,16 @@ function Frenchvideo1(){
             <h1>Watch the video and Learn it happily..</h1>
             </div>
             {/* <Container> */}
+            <h1>Definite Article</h1>
             <div className="ratio ratio-16x9" style={{marginLeft:"150px"}}>
-           <iframe src="https://www.youtube.com/embed/-7woR4auqso?si=82vV0wqVrAvVx_b6" title="YouTube video" allowFullScreen style={{ width: "70%", height: "60%" }}></iframe>
+           <iframe src="https://www.youtube.com/embed/054MD3i3RDE?si=6DaBZNWFoLHGN_9L" title="YouTube video" allowFullScreen style={{ width: "70%", height: "60%" }}></iframe>
             </div>
-            
+            <h1>Indifinite Article</h1>
+            <div className="ratio ratio-16x9" style={{marginLeft:"150px"}}>
+           <iframe src="https://www.youtube.com/embed/xw1sORGoEOY?si=lEQDU8VpEqxWR_bc" title="YouTube video" allowFullScreen style={{ width: "70%", height: "60%" }}></iframe>
+            </div>
             {/* </Container> */}
         </div>
     )
 }
-export default Frenchvideo1;
-
-//<iframe width="560" height="315" src="https://www.youtube.com/embed/w46i7nY9Zt4?si=yzsQtvdSk34ZuQRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+export default Frenchvideo4;

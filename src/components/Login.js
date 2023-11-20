@@ -10,7 +10,7 @@ function Login(){
 
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.post("http://localhost:3001/login",{email,password})
+        axios.post("https://crud-deployment-backend-3-hv18.onrender.com/login",{email,password})
         .then(result=>
             {console.log(result)
             if(result.data==="success"){
@@ -20,8 +20,16 @@ function Login(){
         })
     .catch((err)=>console.log(err))
 }
+const backgroundImageUrl = "https://c1.wallpaperflare.com/preview/224/215/805/learning-education-word-letters-thumbnail.jpg";
+const containerStyle = {
+    backgroundImage: `url(${backgroundImageUrl})`,
+    backgroundSize: "cover", 
+    backgroundPosition: "center", 
+   
+  };
+
     return(
-        <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
+        <div className="d-flex justify-content-center align-items-center bg-secondary vh-100" style={containerStyle}>
             <div className="bg-white p-3 rounded w-25">
                 <h2>Login</h2>
                 <form onSubmit={handleSubmit}>

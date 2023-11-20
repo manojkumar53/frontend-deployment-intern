@@ -34,6 +34,12 @@ function Practice2(){
        }
     return(
         <div>
+             <nav className="navbar bg-info">
+             <Link to="/" className="navbar-brand mx-3">practice2</Link>
+        <div className="nav">
+          <Link to="/practice" className="nav-link">Logout</Link>
+        </div>
+      </nav>
          <p className="heading-txt">Quiz App</p>
         <div>
         <div className="container">
@@ -68,7 +74,7 @@ function Practice2(){
         </div>
         <div style={{ float: "right", marginRight: "20px" }}>
         <Link to="/practice3" className="btn btn-outline-primary m-3 text-decoration-none">
-          Next Quiz
+          Next Practice
         </Link>
       </div>
       <div style={{ float: "left", marginLeft: "20px" }}>

@@ -1,22 +1,28 @@
 export const QuizData = [
     {
-        question: "Quel est le mot français pour 'bonjour'?",
-        options:[ "Goodboy", "Bonjour", "Merci", "Oui"],
+        question: " How do you say 'Good morning?'",
+        options:[ "Bonsoir", "Bon après-midi", "Au revoir","Bonjour"],
         answer: 4
     },
     {
-        question: "Comment dit-on 'merci' en français ?",
-        options:["Thankyou", "Merci", "Cascading Simple Sheets", "Cars SUVs Sailboats"],
+        question: "How do you say 'Good afternoon'?",
+        options:["Au revoir", "Bon après-midi", "Bonjour", "Bonsoir"],
         answer: 2
     },
     {
-        question: "What does HTML stand for?",
-        options: ["Hypertext Markup Language", "Hypertext Markdown Language", "Hyperloop Machine Language", "Helicopters Terminals Motorboats Lamborginis"],
+        question: "How do you say 'Good evening'",
+
+        options: ["Bonsoir", "des clés", "Merci beaucoup", "Au revoir"],
         answer: 1
     },
     {
-        question: "What year was JavaScript launched?",
-        options: ["1996", "1995", "1994", "none of the above"],
+        question: "What is the correct translation for 'Please'?",
+        options: ["Gauche", "S'il vous plaît", "Désolé", "Bonjour"],
+        answer:2
+    },
+    {
+        question: "What is the correct translation for 'Thank you very much'?",
+        options: ["Excusez moi", "Merci beaucoup", "Je ne sais pas", "A votre santé!"],
         answer:2
     },
 ];

@@ -1,22 +1,27 @@
 export const QuizData3 = [
     {
-        question: "Hello",
-        options:[ "Java", "C", "Python", "JavaScript"],
-        answer: 4
-    },
-    {
-        question: "What does CSS stand for?",
-        options:["Central Style Sheets", "Cascading Style Sheets", "Cascading Simple Sheets", "Cars SUVs Sailboats"],
-        answer: 2
-    },
-    {
-        question: "What does HTML stand for?",
-        options: ["Hypertext Markup Language", "Hypertext Markdown Language", "Hyperloop Machine Language", "Helicopters Terminals Motorboats Lamborginis"],
+        question: "What is the correct translation for 'apples'?",
+        options:[ "des pommes", "une orange", "un pamplemousse", "des fraises"],
         answer: 1
     },
     {
-        question: "What year was JavaScript launched?",
-        options: ["1996", "1995", "1994", "none of the above"],
-        answer:2
+        question: "What is the correct translation for 'onion'?",
+        options:["un oignon", "un concombre", "du beurre", "des champignons"],
+        answer: 1
+    },
+    {
+        question: " What is the correct translation for 'leg'?",
+        options: ["la tête", "la jambe", "l'oeil", "le nez"],
+        answer: 2
+    },
+    {
+        question: "What is the correct translation for 'white'? ",
+        options: ["rouge", "noir", "blanc", "bleu foncé"],
+        answer:3
+    },
+    {
+        question: "What is the correct translation for 'glass'? ",
+        options: ["un coca", "une tasse", "un verre", "un bol"],
+        answer:3
     },
 ];

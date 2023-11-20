@@ -11,15 +11,23 @@ function Signup(){
     
     const handleSubmit=(e)=>{
         e.preventDefault()
-        Axios.post('http://localhost:3001/register',{name,email,password})
+        Axios.post('https://crud-deployment-backend-3-hv18.onrender.com/register',{name,email,password})
         .then(result=>{console.log(result)
             alert("Register succesfully")
             navigate('/login')
         })
         .catch(err=>console.log(err))
     }
+    const backgroundImageUrl = "https://c1.wallpaperflare.com/preview/224/215/805/learning-education-word-letters-thumbnail.jpg";
+    const containerStyle = {
+        backgroundImage: `url(${backgroundImageUrl})`,
+        backgroundSize: "cover", // Adjust as needed
+        backgroundPosition: "center", // Adjust as needed
+       
+      };
+    
     return(
-        <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
+        <div className="d-flex justify-content-center align-items-center bg-secondary vh-100" style={containerStyle}>
             <div className="bg-white p-3 rounded w-25">
                 <h2>Register</h2>
                 <form onSubmit={handleSubmit}>

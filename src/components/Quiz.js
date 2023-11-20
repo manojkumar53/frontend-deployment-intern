@@ -34,6 +34,12 @@ function Quiz(){
        }
     return(
         <div>
+            <nav className="navbar bg-info">
+            <Link to="/" className="navbar-brand mx-3">practice1</Link>
+        <div className="nav">
+          <Link to="/practice" className="nav-link">Logout</Link>
+        </div>
+      </nav>
          <p className="heading-txt">Quiz App</p>
         <div>
         <div className="container">
@@ -66,11 +72,17 @@ function Quiz(){
          </div>
         
         </div>
-        <div style={{ float: "right", marginRight: "20px" }}>
-        <Link to="/practice2" className="btn btn-outline-primary m-3 text-decoration-none">
-          Next Quiz
+        <div style={{ float: "left", marginLeft: "20px" }}>
+        <Link to="/practice" className="btn btn-outline-primary m-3 text-decoration-none">
+          prev
         </Link>
       </div>
+        <div style={{ float: "right", marginRight: "20px" }}>
+        <Link to="/practice2" className="btn btn-outline-primary m-3 text-decoration-none">
+          Next Practice
+        </Link>
+      </div>
+      
         </div>
         
     )

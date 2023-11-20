@@ -34,6 +34,12 @@ function Practice3(){
        }
     return(
         <div>
+             <nav className="navbar bg-info">
+             <Link to="/" className="navbar-brand mx-3">practice3</Link>
+        <div className="nav">
+          <Link to="/practice" className="nav-link">Logout</Link>
+        </div>
+      </nav>
          <p className="heading-txt">Quiz App</p>
         <div>
         <div className="container">
