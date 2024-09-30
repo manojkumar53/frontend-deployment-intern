@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 function UserQuizList(){
     const [arr,setArr]=useState([]);
     useEffect(()=>{
-        Axios.get("https://crud-deployment-backend-3-hv18.onrender.com/quizRoute/")
+        Axios.get("https://backend-deploy-1.onrender.com/quizRoute/")
         .then((res)=>{
             if(res.status===200)
               setArr(res.data);

@@ -1,40 +1,4 @@
-// import Axios from "axios";
-// import {Link} from "react-router-dom";
-// function QuizListRow(props){
-//     const {_id,question,option1,option2,option3,option4}=props.obj;
-    
-//     const handleClick=()=>{
-//        Axios.delete("http://localhost:3001/quizRoute/delete-quiz/" + _id)
-//        .then((res)=>{
-//         if(res.status===200)
-//          {
-//             alert("Record deleted successfully");
-//             window.location.reload();
-//          }
-//          else
-//            Promise.reject();
-//        })
-//        .catch((err)=>alert(err));
-//     }
-//     return(
-//         <tr>
-//             <td>{question}</td>
-//             <td>{option1}</td>
-//             <td>{option2}</td>
-//             <td>{option3}</td>
-//             <td>{option4}</td>
-//             <td>
-//                 <button class="btn btn-success">
-//                     <Link class="text-decoration-none text-light" to={"/edit-quiz/"+_id}>Edit</Link>
-//                 </button>
-//                 <button  onClick={handleClick} class="btn btn-danger">
-//                     Delete
-//                 </button>
-//             </td>
-//         </tr>
-//     )
-// }
-// export default QuizListRow;
+
 
 import React, { useState } from "react";
 import Axios from "axios";

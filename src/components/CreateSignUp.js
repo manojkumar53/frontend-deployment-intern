@@ -8,7 +8,7 @@ function CreateSignUp(){
     }
     const handleSubmit=()=>{
         const data={name:arr[0],email:arr[1],password:arr[2]};
-        Axios.post("https://crud-deployment-backend-3-hv18.onrender.com/registerRoute/register",data)
+        Axios.post("https://backend-deploy-1.onrender.com/registerRoute/register",data)
         .then((res)=>{
             if(res.status===200)
               alert("register succesfully");

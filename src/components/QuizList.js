@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 function QuizList(){
     const [arr,setArr]=useState([]);
     useEffect(()=>{
-        Axios.get("https://crud-deployment-backend-3-hv18.onrender.com/quizRoute/")
+        Axios.get("https://backend-deploy-1.onrender.com/quizRoute/")
         .then((res)=>{
             if(res.status===200)
               setArr(res.data);
@@ -39,22 +39,7 @@ function QuizList(){
            
         </div>
         </div>
-    //     <table class="table table-bordered table-striped table-success">
-    //         <thead>
-    //             <tr>
-    //                 <th class="text-center">Question</th>
-    //                 <th class="text-center">Option1</th>
-    //                 <th class="text-center">Option2</th>
-    //                 <th class="text-center">Option3</th>
-    //                 <th class="text-center">Option4</th>
-    //                 <th class="text-center">answer</th>
-    //                 <th class="text-center">Action</th>
-    //             </tr>
-    //         </thead>
-    //         <tbody>
-    //             {ListItems()}
-    //         </tbody>
-    //     </table>
+    
     )
 }
 export default QuizList;

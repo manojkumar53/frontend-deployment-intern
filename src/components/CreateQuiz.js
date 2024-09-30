@@ -10,7 +10,7 @@ function CreateQuiz(){
     const handleSubmit=(event)=>{
       event.preventDefault();
         const data={question:arr[0],option1:arr[1],option2:arr[2],option3:arr[3],option4:arr[4],answer:arr[5]}
-        Axios.post("https://deploy-backend-qrsx.onrender.com/quizRoute/create-quiz",data)
+        Axios.post("https://backend-deploy-1.onrender.com/quizRoute/create-quiz",data)
         .then((res)=>{
             if(res.status===200)
               alert("Record added successfully");
